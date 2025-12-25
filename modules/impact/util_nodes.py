@@ -500,6 +500,7 @@ class NthItemOfAnyList:
 
     def doit(self, any_list, index):
         i = index[0]
+        any_list=any_list[0]
         list_len = len(any_list)
         if i >= list_len or i < -list_len:
             return (any_list[-1],)
