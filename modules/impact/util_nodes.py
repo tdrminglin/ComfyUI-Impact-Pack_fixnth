@@ -503,6 +503,7 @@ class NthItemOfAnyList:
         i = index[0]
         any_list=any_list[0]
         list_len = len(any_list)
+        print("开始选择..",any_list,"第",i)
         if i >= list_len or i < -list_len:
             return (any_list[-1],)
         else:
