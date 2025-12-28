@@ -291,7 +291,8 @@ NODE_CLASS_MAPPINGS = {
     "ImpactSEGSClassify": SEGS_Classify, # noqa: F405
 
     "ImpactSchedulerAdapter": ImpactSchedulerAdapter, # noqa: F405
-    "GITSSchedulerFuncProvider": GITSSchedulerFuncProvider # noqa: F405
+    "GITSSchedulerFuncProvider": GITSSchedulerFuncProvider, # noqa: F405
+    "AppenToAnyList":AppenToAnyList
 }
 
 
@@ -442,7 +443,8 @@ NODE_DISPLAY_NAME_MAPPINGS = {
 
     "ImpactSchedulerAdapter": "Impact Scheduler Adapter",
     "GITSSchedulerFuncProvider": "GITSScheduler Func Provider",
-    "ImpactNegativeConditioningPlaceholder": "Negative Cond Placeholder"
+    "ImpactNegativeConditioningPlaceholder": "Negative Cond Placeholder",
+    "AppenToAnyList":"Appen To Any List"
 }
 
 
