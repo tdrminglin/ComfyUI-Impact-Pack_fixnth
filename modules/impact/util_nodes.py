@@ -10,6 +10,7 @@ import impact.core as core
 from server import PromptServer
 import inspect
 import logging
+import copy
 
 
 class GeneralSwitch:
