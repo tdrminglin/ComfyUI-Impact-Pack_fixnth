@@ -507,7 +507,7 @@ class NthItemOfAnyList:
         else:
             return (any_list[i],)
             
-class AppenToAnyList:
+class AppendToAnyList:
     @classmethod
     def INPUT_TYPES(s):
         return {"required":  {
@@ -525,7 +525,7 @@ class AppenToAnyList:
     DESCRIPTION = "append one item to the end of input list."
 
     def doit(self, any_list,append_item):
-        i = index[0]
+        #i = index[0]
         any_list=any_list[0]
         outlist=copy.deepcopy(any_list)
         outlist.append(append_item[0])
