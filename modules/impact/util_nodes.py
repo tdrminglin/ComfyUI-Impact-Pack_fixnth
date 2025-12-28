@@ -506,6 +506,31 @@ class NthItemOfAnyList:
             return (any_list[-1],)
         else:
             return (any_list[i],)
+            
+class AppenToAnyList:
+    @classmethod
+    def INPUT_TYPES(s):
+        return {"required":  {
+                    "any_list": (any_typ,),
+                    "append_item": (any_typ,),
+                    }
+        }
+
+    RETURN_TYPES = (any_typ,)
+    INPUT_IS_LIST = True
+    FUNCTION = "doit"
+
+    CATEGORY = "ImpactPack/Util"
+
+    DESCRIPTION = "append one item to the end of input list."
+
+    def doit(self, any_list,append_item):
+        i = index[0]
+        any_list=any_list[0]
+        outlist=copy.deepcopy(any_list)
+        outlist.append(append_item[0])
+        return outlist
+
 
 
 class MakeImageList:
