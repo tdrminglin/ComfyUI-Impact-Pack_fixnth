@@ -530,7 +530,7 @@ class AppendToAnyList:
         any_list=any_list[0]
         outlist=copy.deepcopy(any_list)
         outlist.append(append_item[0])
-        return outlist
+        return (outlist,)
 
 
 
